@@ -10,3 +10,6 @@ Steps to connect a local git repo to a remote repo:
         the remote branch main in the origin repository.
          After setting this upstream relationship, you can simply use git push or git pull without specifying
          the remote or branch names, and Git will know where to push or pull the changes from/to.
+
+7. git reflog // to see the commit history
+8. git reset --hard hashId_of_commit // Resets the system to that commit
