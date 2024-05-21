@@ -5,4 +5,8 @@ Steps to connect a local git repo to a remote repo:
 3. git commit -m "Commit message" //This will create a new branch "master"
 4. git branch -M "main" // rename branch name to main to sync with origin branch name "main"
 5. git remote add origin "url"
-6. git push -u origin main //Push the main branch to remote repository
+6. git push -u origin main
+        //tells Git to set up a tracking relationship between the local branch main and
+        the remote branch main in the origin repository.
+         After setting this upstream relationship, you can simply use git push or git pull without specifying
+         the remote or branch names, and Git will know where to push or pull the changes from/to.
