@@ -13,3 +13,5 @@ Steps to connect a local git repo to a remote repo:
 
 7. git reflog // to see the commit history
 8. git reset --hard hashId_of_commit // Resets the system to that commit
+9.git fetch //to just fetch the remote changes and not merge directly
+10. git merge //merge the fetched changes into local repo
